@@ -1,11 +1,13 @@
 package com.driver;
 
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         A obj= new A();
-        obj.meth();
+        System.out.println(obj.meth());
         A obj1= new B();
-        obj1.meth();
+        System.out.println(obj1.meth());
 
     }
 }
