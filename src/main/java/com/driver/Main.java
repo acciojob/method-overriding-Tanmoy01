@@ -10,12 +10,12 @@ public class Main {
     }
 }
 class A{
-        void meth(){
-            System.out.println("Invoking method from class A");
+        String meth(){
+            return "Invoking method from class A";
         }
 }
 class B extends A{
-        void meth(){
-            System.out.println("Method is overridden in Extendend class B");
+        String meth(){
+            return "Method is overridden in Extendend class B";
         }
 }
